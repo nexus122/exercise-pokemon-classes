@@ -15,8 +15,15 @@
  */
 
 class Pokemon {
+    constructor(id, nombre, tipo, ataque, defensa){
+        this.id = id;
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.ataque = ataque;
+        this.defensa = defensa;
+    }
 }
 
 // TEST----
-// let pokemon = new Pokemon(890, "Eternatus", ['Poison', 'Dragon'], 255, 115, 250)
-// console.log(pokemon)
+let pokemon = new Pokemon(890, "Eternatus", ['Poison', 'Dragon'], 255, 115, 250)
+console.log(pokemon)
